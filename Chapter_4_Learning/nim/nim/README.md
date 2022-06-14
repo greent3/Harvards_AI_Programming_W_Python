@@ -7,7 +7,10 @@ We do this through Q-learning, or assigning a reward value for every (state, act
 We’ll represent the game as an array (game board) of numbers (# of pieces in each row). 
 
 # MY RESPONSIBILITIES
-I completed the logic and implementation of:
-get_q_value(), update_q_value(), best_future_reward(), and choose_action().
+I completed the logic and implementation of the following functions in nim.py:
+- get_q_value() 
+- update_q_value() 
+- best_future_reward() 
+- choose_action()
 
 All other functions and play.py were provided by Brian Yu over at Harvard. 
