@@ -5,9 +5,12 @@ To train our classifier, we’ll use data from a shopping website with ~12,000 u
 
 # RUNNING
 When we run our program, we pass the location of a CSV file containing data about website shoppers as a command line argument. 
-Our program takes that data, reformats it into the correct data type, splits it into training and testing data, uses that data to 
-train a k-nearest neighbors classification model,  outputs the sensitivity (true positive rate) and specificity (true negative rate) 
-of our trained model on our testing data. 
+Our program  
+1. loads in that data  
+2. reformats it into the correct data type  
+3. splits it into training and testing data  
+4. uses that data to train a k-nearest neighbors classification model  
+5. and outputs the sensitivity (true positive rate) and specificity (true negative rate) of our trained model on our testing data.  
 
 # MY RESPONSIBILITIES
 load_data() - The function loading in the data from the CSV and reformatting it before sending it to our model  
