@@ -10,8 +10,8 @@ train a k-nearest neighbors classification model,  outputs the sensitivity (true
 of our trained model on our testing data. 
 
 # MY RESPONSIBILITIES
-load_data() - The function loading in the data from the CSV and reformatting it before sending it to our model
-train_model() - The k-nearest neighbor model function
-Evaluate() - The function measuring our true positive/true negative stats on the testing data
+load_data() - The function loading in the data from the CSV and reformatting it before sending it to our model  
+train_model() - The k-nearest neighbor model function  
+Evaluate() - The function measuring our true positive/true negative stats on the testing data  
 
 The main function was provided by Brian Yu over at harvard. 
